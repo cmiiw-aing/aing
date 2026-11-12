@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LINUX_ABYSSAL_BYTE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#">
+      <img src="linux.jpg" alt="Logo penguin Linux" />
+      <span class="logo-text">
+    <b>LI</b><strong>NUX</strong><sup>®</sup>
+</span>
+
+
+    </a>
+
+    <nav class="nav-menu">
+      <a class="nav-link active" href="#dashboard"><span>⌂</span>Dashboard</a>
+      <a class="nav-link" href="#about"><span>ⓘ</span>About Linux</a>
+      <a class="nav-link" href="#history"><span>◷</span>Sejarah Linux</a>
+      <a class="nav-link" href="#team"><span>♟</span>Our Team</a>
+      <a class="nav-link" href="#distros"><span>✥</span>Distributions</a>
+      <a class="nav-link" href="#tutorials"><span>▣</span>Tutorials</a>
+      <a class="nav-link" href="#docs"><span>▤</span>Documentation</a>
+      <a class="nav-link" href="#community"><span>♧</span>Community</a>
+    </nav>
+
+    <div class="sidebar-bottom">
+      <a class="nav-link" href="#settings"><span>⚙</span>Settings</a>
+      <a class="nav-link" href="#help"><span>?</span>Help</a>
+      <div class="sidebar-note"><span class="terminal-mark">›_</span><br>Open Source.<br>Endless Possibilities.</div>
+    </div>
+  </aside>
+
+  <main class="main-content" id="dashboard">
+    <header class="topbar">
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">☰</button>
+      <label class="search-box">
+        <span>⌕</span>
+        <input id="searchInput" type="search" placeholder="Search anything..." />
+        <kbd>Ctrl + K</kbd>
+      </label>
+    
+    </header>
+
+    <section class="hero-grid">
+      <div class="hero-card">
+        <div class="hero-copy">
+          <p class="eyebrow">WELCOME TO</p>
+          <h1><span>LI</span><em>NUX</em></h1>
+          <p class="hero-subtitle">Explore. Learn. Contribute.</p>
+          <a class="primary-button" href="#tutorials">Get Started <span>→</span></a>
+        </div>
+        <img class="hero-penguin" src="linux.jpg" alt="Maskot penguin Linux" />
+        <div class="hero-orbit orbit-one"></div>
+        <div class="hero-orbit orbit-two"></div>
+        <span class="hero-terminal">›_</span>
+        <div class="slider-dots"><i></i><i></i><i></i></div>
+      </div>
+
+ 
+    </section>
+
+    
+
+
+    <section class="about-grid" id="about">
+      <article class="panel about-panel">
+        <div class="panel-heading"><h2><span class="yellow-icon">ⓘ</span>Mengenal Linux</h2></div>
+        <p class="section-lead">Apa itu Linux?</p>
+        <p class="about-text">Linux adalah sistem operasi <b>open source</b> yang dikembangkan bersama oleh komunitas dari seluruh dunia. Linux dikenal fleksibel, stabil, aman, dan dapat digunakan pada komputer, server, hingga perangkat pintar.</p>
+        <div class="about-tags"><span>Open Source</span><span>Free & Flexible</span><span>Community Driven</span></div>
+        <a class="text-link" href="#history">Kenali sejarah Linux <b>→</b></a>
+      </article>
+
+      <article class="panel history-panel" id="history">
+        <div class="panel-heading"><h2><span class="yellow-icon">◷</span>Sejarah Singkat Linux</h2></div>
+        <div class="history-timeline">
+          <div class="history-entry"><time>1983</time><div><b>Proyek GNU dimulai</b><p>Richard Stallman memulai proyek GNU untuk membangun sistem operasi bebas.</p></div></div>
+          <div class="history-entry"><time>1991</time><div><b>Kernel Linux diperkenalkan</b><p>Linus Torvalds mengumumkan proyek kernel Linux yang kemudian berkembang bersama komunitas.</p></div></div>
+          <div class="history-entry"><time>1992</time><div><b>Linux menggunakan lisensi GPL</b><p>Kernel Linux dirilis dengan lisensi GNU GPL sehingga dapat dikembangkan dan dibagikan secara terbuka.</p></div></div>
+          <div class="history-entry"><time>Today</time><div><b>Digunakan di seluruh dunia</b><p>Linux hadir dalam berbagai distribusi dan digunakan pada server, desktop, cloud, serta perangkat lainnya.</p></div></div>
+        </div>
+      </article>
+
+      <article class="panel team-panel" id="team">
+        <div class="panel-heading"><h2><span class="yellow-icon">♟</span>Kenalan dengan Tim Kami</h2></div>
+        <div class="team-photo-placeholder">
+          <div class="photo-symbol">▧</div>
+          <b>Foto Kelompok Abyssal Byte</b>
+          <span>Letakkan foto anggota kelompok di sini</span>
+        </div>
+        <p class="team-caption">Kami adalah tim yang berkolaborasi untuk mengenal, mempelajari, dan memperkenalkan dunia Linux serta open source.</p>
+      </article>
+    </section>
+
+    <section class="lower-grid">
+      <article class="panel news-panel">
+        <div class="panel-heading"><h2><span class="yellow-icon">⚑</span>Latest News</h2><a href="#news">See All →</a></div>
+        <div class="news-item">
+          <div class="news-thumb linux-thumb"><img src="assets/tux-logo.png" alt=""></div>
+          <div><h3>Linux terus berkembang!</h3><p>Kenali perkembangan kernel, fitur terbaru, dan dukungan perangkat keras Linux.</p><small>▦ 11 Nov 2026</small></div>
+        </div>
+        <div class="news-item">
+          <div class="news-thumb ubuntu-thumb"><span>●</span></div>
+          <div><h3>Mengenal berbagai distribusi Linux</h3><p>Temukan distro yang sesuai dengan kebutuhan belajar dan aktivitas sehari-hari.</p><small>▦ 10 Nov 2026</small></div>
+        </div>
+      </article>
+
+      <article class="panel quick-panel">
+        <div class="panel-heading"><h2><span class="yellow-icon">›_</span>Quick Access</h2></div>
+        <div class="quick-grid">
+          <a class="quick-link" href="#tutorials"><span>⚑</span><b>Linux Basics</b><i>→</i></a>
+          <a class="quick-link" href="#commands"><span>›_</span><b>Commands</b><i>→</i></a>
+          <a class="quick-link" href="#distros"><span>⬇</span><b>Install Guide</b><i>→</i></a>
+          <a class="quick-link" href="#community"><span>♟</span><b>Community</b><i>→</i></a>
+        </div>
+      </article>
+
+    </section>
+
+    <footer class="footer">
+      <div><span>♡</span> <b>Abyssal Byte</b><i>•</i> Learn <i>•</i> Share <i>•</i> Grow</div>
+      <div class="socials"><a href="#github" aria-label="GitHub">◉</a><a href="#video" aria-label="Video">▶</a><a href="#community" aria-label="Community">◈</a><a href="#web" aria-label="Website">◎</a></div>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
